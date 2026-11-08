@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Generated files ###
+.gradle/
+out/
+logs/
+*.class
+*.log
+.DS_Store
+Thumbs.db
