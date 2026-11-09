@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/v1/insight")
-public class IInsightController {
+public class InsightController {
 
     private final InsightService insightService;
 
-    public IInsightController(InsightService insightService) {
+    public InsightController(InsightService insightService) {
         this.insightService = insightService;
     }
 
